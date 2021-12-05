@@ -30,18 +30,6 @@ public class EmployeeManagerController extends ManagerController {
 //        popupController.add(this, new EmployeePopupView());
         popupController.add(new EmployeePopupView(), this::updateData, view::showError);
     }
-
-    @Override
-    public void actionEdit() {
-        try {
-            int selectedId = view.getSelectedId();
-            if (selectedId < 0) {
-                throw new Exception("Chọn nhân viên cần edit");
-            }
-            Employee e = employeeDao.get(selectedId);
-            if (e == null) {
-                throw new Exception("Nhân viên bạn chọn không hợp lệ");
-            }
             if (e.getPermission() == EmployeePermission.MANAGER) {
                 int value = JOptionPane.showConfirmDialog(null, "Bạn có chắc muốn chỉnh sửa admin?");
                 if (value != YES_OPTION) {
