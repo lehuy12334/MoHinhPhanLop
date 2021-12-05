@@ -69,6 +69,7 @@
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="477" max="32767" attributes="0"/>
               </Group>
@@ -89,7 +90,9 @@
                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="433" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="396" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -111,7 +114,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="16" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#x110;&#x1ec1; t&#xe0;i m&#xf4;n ph&#xe1;t tri&#x1ec3;n ph&#x1ea7;n m&#x1ec1;m &#x1ee9;ng d&#x1ee5;ng"/>
+            <Property name="text" type="java.lang.String" value="X&#xe2;y d&#x1ef1;ng ph&#x1ea7;n m&#x1ec1;m theo m&#xf4; h&#xec;nh ph&#xe2;n l&#x1edb;p"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
@@ -119,7 +122,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Nh&#xf3;m 15:"/>
+            <Property name="text" type="java.lang.String" value="Nh&#xf3;m 3:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
@@ -130,7 +133,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Tr&#x1ea7;n &#x110;&#x1ee9;c C&#x1b0;&#x1edd;ng - CT030208"/>
+            <Property name="text" type="java.lang.String" value="Tr&#x1ea7;n Qu&#x1ed1;c Huy"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
@@ -141,7 +144,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#x110;&#x1ed7; Tu&#x1ea5;n Anh - CT030203"/>
+            <Property name="text" type="java.lang.String" value="Nguy&#x1ec5;n Qu&#x1ed1;c Kh&#xe1;nh - CT030203"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
@@ -152,7 +155,18 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Nguy&#x1ec5;n Lam S&#x1a1;n - CT030246"/>
+            <Property name="text" type="java.lang.String" value="Nguy&#x1ec5;n V&#x103;n Th&#xe1;nh - CT030246"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="L&#xea; Thanh Huy - CT030203"/>
           </Properties>
         </Component>
       </SubComponents>
