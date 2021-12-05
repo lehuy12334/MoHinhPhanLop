@@ -10,11 +10,7 @@ import models.Statistical;
 import utils.Debouncer;
 import views.admin.StatisticalIncomeView;
 
-/**
- * createAt Jan 3, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class StatisticalIncomeController {
 
     StatisticalIncomeView view;

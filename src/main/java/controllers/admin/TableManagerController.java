@@ -11,11 +11,7 @@ import models.Table;
 import views.admin.TableManagerView;
 import views.popup.TablePopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class TableManagerController extends ManagerController {
 
     TableDao tableDao = new TableDao();

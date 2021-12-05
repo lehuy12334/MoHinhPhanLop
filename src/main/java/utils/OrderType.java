@@ -1,9 +1,6 @@
 package utils;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public enum OrderType {
     LOCAL("local", "Tại quán"),
     ONLINE("online", "Đặt hàng");

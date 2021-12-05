@@ -7,11 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import models.Shipment;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class ShipmentDao extends Dao<Shipment> {
 
     CustomerDao customerDao = new CustomerDao();

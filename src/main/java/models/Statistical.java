@@ -4,11 +4,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-/**
- * createAt Jan 2, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class Statistical {
 
     public class WorkingMinus {

@@ -1,9 +1,6 @@
 package utils;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public enum EmployeePermission {
     MANAGER("manager", "Quản lý", 2),
     STAFF("staff", "Nhân viên", 1),

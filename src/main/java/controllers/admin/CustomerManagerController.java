@@ -11,11 +11,7 @@ import static javax.swing.JOptionPane.YES_OPTION;
 import models.Customer;
 import views.popup.CustomerPopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class CustomerManagerController extends ManagerController {
 
     CustomerDao customerDao = new CustomerDao();

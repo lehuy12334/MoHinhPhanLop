@@ -6,11 +6,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-/**
- * createAt Jan 2, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class Debouncer {
 
     private final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();

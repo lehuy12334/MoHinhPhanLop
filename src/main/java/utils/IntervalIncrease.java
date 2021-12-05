@@ -1,10 +1,6 @@
 package utils;
 
-/**
- * createAt Dec 28, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class IntervalIncrease {
 
     public interface Callback {

@@ -14,11 +14,7 @@ import javax.swing.JSpinner;
 import models.Table;
 import utils.ErrorPopup;
 
-/**
- * createAt Dec 20, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class AddOrderPopupView extends javax.swing.JFrame implements PopupView {
 
     DefaultComboBoxModel<Table> tbComboBoxModel = new DefaultComboBoxModel<>();

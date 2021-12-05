@@ -12,10 +12,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import org.imgscalr.Scalr;
 
-/**
- * @createAt Nov 15, 2020
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public class ImageManager {
 
     public static String resourcesPath = "/";

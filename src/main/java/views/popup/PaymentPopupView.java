@@ -5,11 +5,7 @@
  */
 package views.popup;
 
-/**
- * createAt Dec 21, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class PaymentPopupView extends javax.swing.JFrame {
 
     public PaymentPopupView() {

@@ -5,11 +5,6 @@
  */
 package views.admin;
 
-/**
- * createAt Jan 3, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class AboutView extends javax.swing.JPanel {
 
     /**

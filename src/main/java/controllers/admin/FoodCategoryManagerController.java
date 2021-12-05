@@ -13,11 +13,7 @@ import static javax.swing.JOptionPane.YES_OPTION;
 import models.FoodCategory;
 import views.popup.FoodCategoryPopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class FoodCategoryManagerController extends ManagerController {
 
     FoodCategoryDao foodCategoryDao = new FoodCategoryDao();

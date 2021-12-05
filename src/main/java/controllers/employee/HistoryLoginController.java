@@ -8,11 +8,7 @@ import models.Session;
 import views.employee.HistoryLoginView;
 import views.employee.SessionLoginView;
 
-/**
- * createAt Jan 12, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class HistoryLoginController {
 
     JFrame previousView;

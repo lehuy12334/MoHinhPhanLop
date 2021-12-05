@@ -11,11 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-/**
- * createAt Dec 16, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class FoodCategoryPopupView extends javax.swing.JFrame implements PopupView {
 
     public FoodCategoryPopupView() {

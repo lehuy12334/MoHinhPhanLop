@@ -11,11 +11,6 @@ import models.Employee;
 import utils.EmployeePermission;
 import views.popup.EmployeePopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class EmployeeManagerController extends ManagerController {
 
     EmployeeDao employeeDao = new EmployeeDao();

@@ -8,11 +8,7 @@ import java.util.Arrays;
 import java.util.Optional;
 import utils.LoadConfig;
 
-/**
- * createAt Dec 16, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class BackupData {
 
     static LoadConfig cfg = LoadConfig.getIntanse();

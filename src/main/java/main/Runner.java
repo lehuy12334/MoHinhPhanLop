@@ -4,11 +4,7 @@ import controllers.LoginController;
 import models.Employee;
 import views.LoginView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class Runner {
 
     private static Employee session;

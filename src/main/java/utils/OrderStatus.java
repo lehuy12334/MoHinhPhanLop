@@ -1,9 +1,6 @@
 package utils;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public enum OrderStatus {
     UNPAID("unpaid", "Chưa thanh toán"),
     PAID("paid", "Đã thanh toán"),

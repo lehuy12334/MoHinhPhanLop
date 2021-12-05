@@ -13,11 +13,6 @@ import models.Statistical;
 import utils.Debouncer;
 import views.admin.StatisticalEmployeeView;
 
-/**
- * createAt Jan 11, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class StatisticalEmployeeController {
 
     StatisticalEmployeeView view;

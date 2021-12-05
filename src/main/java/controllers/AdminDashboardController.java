@@ -37,11 +37,7 @@ import views.admin.StatisticalView;
 import views.admin.TableManagerView;
 import views.employee.InformationView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class AdminDashboardController {
 
     private AdminDashboardView view;

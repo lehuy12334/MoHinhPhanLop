@@ -7,10 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import models.FoodItem;
 
-/**
- * @createAt Dec 8, 2020
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public class FoodItemDao extends Dao<FoodItem> {
 
     @Override

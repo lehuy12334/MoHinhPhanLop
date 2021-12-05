@@ -21,10 +21,6 @@ import models.Statistical;
 import views.employee.CalendarView;
 import views.employee.DayView;
 
-/**
- *
- * @author Admin
- */
 public class CalendarController {
 
     CalendarView view;

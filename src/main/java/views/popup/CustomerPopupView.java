@@ -13,11 +13,7 @@ import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-/**
- * createAt Dec 16, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class CustomerPopupView extends javax.swing.JFrame implements PopupView {
 
     public CustomerPopupView() {

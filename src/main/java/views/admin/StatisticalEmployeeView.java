@@ -15,11 +15,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import utils.ErrorPopup;
 
-/**
- * createAt Jan 11, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class StatisticalEmployeeView extends javax.swing.JPanel {
 
     /**

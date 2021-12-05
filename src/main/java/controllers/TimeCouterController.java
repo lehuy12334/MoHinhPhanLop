@@ -4,11 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import main.SessionManager;
 
-/**
- * createAt Jan 11, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class TimeCouterController {
 
     static Timer timer;

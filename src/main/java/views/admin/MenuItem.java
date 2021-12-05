@@ -6,10 +6,7 @@ import javax.swing.Icon;
 import utils.IconManager;
 import utils.SidebarColor;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public class MenuItem extends javax.swing.JPanel {
 
     private ArrayList<MenuItem> subMenu = new ArrayList<>();

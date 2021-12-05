@@ -5,10 +5,6 @@ import java.text.Normalizer.Form;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-/**
- * @createAt Dec 1, 2020
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
 public class StringToSlug {
 
     private static final Pattern NONLATIN = Pattern.compile("[^\\w-]");

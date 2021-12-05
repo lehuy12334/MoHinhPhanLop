@@ -11,12 +11,7 @@ import models.FoodItem;
 import views.admin.FoodItemManagerView;
 import views.popup.FoodItemPopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- * Manager Controller mẫu
- */
+
 public class FoodItemManagerController extends ManagerController {
 
     FoodItemDao foodItemDao = new FoodItemDao();

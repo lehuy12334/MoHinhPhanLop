@@ -3,11 +3,7 @@ package views.admin;
 import javax.swing.DefaultComboBoxModel;
 import models.Employee;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class EmployeeManagerView extends ManagerPaneView<Employee> {
 
     String[] list = {"ID", "Name", "phoneNumber"};

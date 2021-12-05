@@ -2,11 +2,6 @@ package utils;
 
 import java.awt.Color;
 
-/**
- * createAt Jan 9, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class SidebarColor {
 
     public static Color getActiveColor(int level) {

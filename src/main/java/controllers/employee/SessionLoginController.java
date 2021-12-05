@@ -10,10 +10,7 @@ import java.text.SimpleDateFormat;
 import models.Session;
 import views.employee.SessionLoginView;
 
-/**
- *
- * @author Administrator
- */
+
 public class SessionLoginController {
 
     private SessionLoginView view;

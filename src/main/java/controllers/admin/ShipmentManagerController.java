@@ -10,11 +10,7 @@ import static javax.swing.JOptionPane.YES_OPTION;
 import models.Shipment;
 import views.popup.ShipmentPopupView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class ShipmentManagerController extends ManagerController {
 
     ShipmentDao shipmentDao = new ShipmentDao();

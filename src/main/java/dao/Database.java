@@ -5,10 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import utils.LoadConfig;
 
-/**
- * @createAt Nov 11, 2020
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public class Database {
 
     private static final LoadConfig cfg = LoadConfig.getIntanse();

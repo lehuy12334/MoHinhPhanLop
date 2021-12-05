@@ -7,11 +7,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import views.admin.ManagerPaneView;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 //Form chung cho các panel kế thừa
 public abstract class ManagerController {
 

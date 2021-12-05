@@ -9,11 +9,7 @@ import javax.swing.JDesktopPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-/**
- * createAt Jan 12, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class HistoryLoginView extends javax.swing.JFrame {
 
     public HistoryLoginView() {

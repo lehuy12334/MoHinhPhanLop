@@ -6,12 +6,7 @@ import java.util.ArrayList;
 import javax.swing.JPanel;
 import views.admin.MenuItem;
 
-/**
- * createAt Dec 18, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- * Quản lý menu sidebar
- */
+
 public class SideBarController {
 
     JPanel panelSideBar;

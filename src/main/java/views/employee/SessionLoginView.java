@@ -8,11 +8,6 @@ package views.employee;
 import java.awt.Dimension;
 import javax.swing.JLabel;
 
-/**
- * createAt Jan 12, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class SessionLoginView extends javax.swing.JPanel {
 
     /**

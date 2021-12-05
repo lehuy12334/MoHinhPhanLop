@@ -3,11 +3,7 @@ package views.admin;
 import javax.swing.DefaultComboBoxModel;
 import models.FoodCategory;
 
-/**
- * createAt Dec 15, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class FoodCategoryManagerView extends ManagerPaneView<FoodCategory> {
 
     String[] list = {"ID", "name"};

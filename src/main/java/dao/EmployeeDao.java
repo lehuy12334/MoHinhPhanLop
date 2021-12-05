@@ -7,10 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import models.Employee;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public class EmployeeDao extends Dao<Employee> {
 
     @Override

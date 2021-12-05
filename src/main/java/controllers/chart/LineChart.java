@@ -17,11 +17,7 @@ import org.jfree.chart.title.TextTitle;
 import org.jfree.chart.title.Title;
 import org.jfree.data.category.CategoryDataset;
 
-/**
- * createAt Jan 3, 2021
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class LineChart {
 
     private static JFreeChart createChart(CategoryDataset dataset) {

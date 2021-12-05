@@ -3,11 +3,6 @@ package utils;
 import java.awt.Color;
 import java.util.Random;
 
-/**
- * createAt Dec 13, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
 public class RandomColor {
 
     public static Color getColor() {

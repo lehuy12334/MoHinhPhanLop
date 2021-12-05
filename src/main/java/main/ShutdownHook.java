@@ -2,11 +2,7 @@ package main;
 
 import controllers.TimeCouterController;
 
-/**
- * createAt Dec 26, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class ShutdownHook extends Thread {
 
     @Override

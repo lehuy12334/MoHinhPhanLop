@@ -10,11 +10,7 @@ import models.FoodItem;
 import views.popup.order.FoodCategoryPane;
 import views.popup.order.FoodItemPane;
 
-/**
- * createAt Dec 21, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class FoodItemController {
 
     FoodCategoryDao foodCategoryDao = new FoodCategoryDao();

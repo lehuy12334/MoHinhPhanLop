@@ -12,11 +12,7 @@ import utils.Debouncer;
 import utils.IntervalIncrease;
 import views.admin.StatisticalView;
 
-/**
- * createAt Dec 27, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class StatisticalController {
 
     StatisticalView view;

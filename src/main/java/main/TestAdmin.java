@@ -5,11 +5,7 @@ import dao.EmployeeDao;
 import models.Employee;
 import views.AdminDashboardView;
 
-/**
- * createAt Dec 23, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class TestAdmin {
 
     public static void main(String[] args) {

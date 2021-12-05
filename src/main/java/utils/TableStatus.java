@@ -1,9 +1,6 @@
 package utils;
 
-/**
- *
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
+
 public enum TableStatus {
     FREE("free", "Trống"),
     SERVING("serving", "Đang phục vụ"),
