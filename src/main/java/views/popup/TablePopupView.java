@@ -6,7 +6,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-
 public class TablePopupView extends javax.swing.JFrame implements PopupView {
 
     public TablePopupView() {

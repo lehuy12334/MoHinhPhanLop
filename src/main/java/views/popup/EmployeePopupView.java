@@ -8,7 +8,6 @@ import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-
 public class EmployeePopupView extends javax.swing.JFrame implements PopupView {
 
     public EmployeePopupView() {

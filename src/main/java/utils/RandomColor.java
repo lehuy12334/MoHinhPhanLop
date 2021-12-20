@@ -3,6 +3,7 @@ package utils;
 import java.awt.Color;
 import java.util.Random;
 
+
 public class RandomColor {
 
     public static Color getColor() {

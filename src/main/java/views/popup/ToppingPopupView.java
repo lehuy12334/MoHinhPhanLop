@@ -7,6 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.JSpinner;
 import models.FoodItem;
 
+
 public class ToppingPopupView extends javax.swing.JFrame {
 
     FoodItemDao foodItemDao = new FoodItemDao();

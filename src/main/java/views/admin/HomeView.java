@@ -2,7 +2,6 @@ package views.admin;
 
 import utils.RandomColor;
 
-
 public class HomeView extends javax.swing.JPanel {
 
     private boolean isShowLed = false;

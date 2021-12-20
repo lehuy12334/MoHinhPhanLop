@@ -6,11 +6,7 @@ import javax.swing.JFrame;
 import models.Customer;
 import views.popup.SelectCustomerPopupView;
 
-/**
- * createAt Dec 31, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.cSom>
- */
+
 public class SelectCustomerPopupController {
 
     CustomerDao customerDao = new CustomerDao();

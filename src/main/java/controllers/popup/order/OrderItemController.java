@@ -6,7 +6,7 @@ import models.OrderItem;
 import views.popup.order.OrderItemPane;
 
 
-public class OrderItemController {
+public class    OrderItemController {
 
     private ArrayList<OrderItem> orderItems;
     private JPanel panelOrderItem;

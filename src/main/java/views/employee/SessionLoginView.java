@@ -8,6 +8,7 @@ package views.employee;
 import java.awt.Dimension;
 import javax.swing.JLabel;
 
+
 public class SessionLoginView extends javax.swing.JPanel {
 
     /**

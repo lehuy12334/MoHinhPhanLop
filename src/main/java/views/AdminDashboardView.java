@@ -8,7 +8,6 @@ import javax.swing.JPanel;
 import utils.ErrorPopup;
 import views.admin.MenuItem;
 
-
 public class AdminDashboardView extends javax.swing.JFrame {
 
     JPanel[] cards;

@@ -18,7 +18,10 @@ import javax.swing.table.DefaultTableModel;
 import models.Statistical;
 import utils.ErrorPopup;
 
-
+/**
+ *
+ * @author Admin
+ */
 public class StatisticalFoodView extends javax.swing.JPanel {
 
     String[] header = {"Tên Món", "Số lượng đã bán"};

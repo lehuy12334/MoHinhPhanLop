@@ -1,6 +1,5 @@
 package utils;
 
-
 public enum OrderType {
     LOCAL("local", "Tại quán"),
     ONLINE("online", "Đặt hàng");

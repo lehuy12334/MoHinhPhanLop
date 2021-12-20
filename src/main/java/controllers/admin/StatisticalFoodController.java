@@ -15,6 +15,10 @@ import models.FoodCategory;
 import models.Statistical;
 import views.admin.StatisticalFoodView;
 
+/**
+ *
+ * @author Admin
+ */
 public class StatisticalFoodController {
 
     private StatisticalFoodView view;

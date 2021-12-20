@@ -14,7 +14,6 @@ import javax.swing.JTextField;
 import models.FoodCategory;
 import utils.ErrorPopup;
 
-
 public class FoodItemPopupView extends javax.swing.JFrame implements PopupView {
 
     DefaultComboBoxModel<FoodCategory> foodCategoryComboBoxModel = new DefaultComboBoxModel<>();

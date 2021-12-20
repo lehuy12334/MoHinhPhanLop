@@ -2,6 +2,7 @@ package utils;
 
 import java.awt.Color;
 
+
 public class SidebarColor {
 
     public static Color getActiveColor(int level) {

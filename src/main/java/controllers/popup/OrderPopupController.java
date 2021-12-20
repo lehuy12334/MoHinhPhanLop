@@ -27,12 +27,7 @@ import views.popup.EditOrderPopupView;
 import views.popup.ShipmentPopupView;
 import views.popup.ToppingPopupView;
 
-/**
- * createAt Dec 17, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- * Popup controller mẫu
- */
+
 public class OrderPopupController {
 
     OrderDao orderDao = new OrderDao();
@@ -285,13 +280,13 @@ public class OrderPopupController {
             }
             shipmentPopupController.add(new ShipmentPopupView(), order.getId(), () -> view.showMessage("Tạo / sửa đơn ship thành công!"), view::showError);
         });
-        view.getBtnPrintOrder().addActionListener(evt -> {
-            try {
-                printOrderController.print(order.getId());
-            } catch (Exception e) {
-                view.showError("Không thể in hóa đơn");
-            }
-        });
+//        view.getBtnPrintOrder().addActionListener(evt -> {
+//            try {
+//                printOrderController.print(order.getId());
+//            } catch (Exception e) {
+//                view.showError("Không thể in hóa đơn");
+//            }
+//        });
         view.getBtnCancelOrder().addActionListener(evt -> {
             try {
                 int value = JOptionPane.showConfirmDialog(null, "Bạn có chắc muốn hủy hóa đơn?");

@@ -13,6 +13,10 @@ import main.SessionManager;
 import models.Employee;
 import views.employee.ChangePassView;
 
+/**
+ *
+ * @author Admin
+ */
 public class ChangePassController {
 
     EmployeeDao employeeDao = new EmployeeDao();

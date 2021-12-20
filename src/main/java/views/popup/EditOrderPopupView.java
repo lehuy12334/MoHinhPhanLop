@@ -12,8 +12,20 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
+
+import controllers.popup.order.OrderItemController;
+import dao.OrderDao;
+import dao.OrderItemDao;
+import models.Order;
+import models.OrderItem;
 import models.Table;
 import utils.ErrorPopup;
+import views.popup.order.OrderItemPane;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.FileWriter;
+import java.util.ArrayList;
 
 
 public class EditOrderPopupView extends javax.swing.JFrame implements PopupView {
@@ -187,7 +199,7 @@ public class EditOrderPopupView extends javax.swing.JFrame implements PopupView 
 
         lbEmployeeName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         lbEmployeeName.setForeground(new java.awt.Color(255, 0, 0));
-        lbEmployeeName.setText("Trần Đức Cường");
+        lbEmployeeName.setText("Le Thanh Huy");
         lbEmployeeName.setToolTipText("");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -466,7 +478,7 @@ public class EditOrderPopupView extends javax.swing.JFrame implements PopupView 
 
         pnlFoodCategory.add(jPanel10);
 
-        jPanel11.setBackground(new java.awt.Color(51, 255, 255));
+        jPanel11.setBackground(new java.awt.Color(255, 51, 99));
         jPanel11.setPreferredSize(new java.awt.Dimension(150, 50));
 
         jLabel12.setText("Bánh");
@@ -487,6 +499,58 @@ public class EditOrderPopupView extends javax.swing.JFrame implements PopupView 
                 .addComponent(jLabel12)
                 .addContainerGap(17, Short.MAX_VALUE))
         );
+        btnPrintOrder.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    FileWriter fw = new FileWriter("D:\\Hoadon.txt");
+                    fw.write("Ma hoa don: ");
+                    fw.write(lbIdOrder.getText());
+                    fw.write("\n");
+                    fw.write("Nhan vien: ");
+                    fw.write(lbEmployeeName.getText());
+                    fw.write("\n");
+
+                    fw.write(String.valueOf(cboTable.getSelectedItem()));
+
+
+                    fw.write("\n");
+                    fw.write("Loai don hang: ");
+                    fw.write(String.valueOf(cboType.getSelectedItem()));
+
+                    fw.write("\n");
+                    fw.write("Trang thai: ");
+                    fw.write(lbStatus.getText());
+
+
+                    fw.write("\n");
+                    fw.write("Tong: ");
+                    fw.write(lbTotalAmount.getText());
+
+                    fw.write("\n");
+                    fw.write("Giam gia: ");
+                    fw.write(lbDiscount.getText());
+
+
+                    fw.write("\n");
+                    fw.write("Phai tra: ");
+                    fw.write(lbFinalAmount.getText());
+
+
+                    fw.write("\n");
+                    fw.write("Da thanh toan: ");
+                    fw.write(lbPaidAmount.getText());
+
+
+                    fw.close();
+                   showMessage("Xuat hoa don thanh cong");
+                } catch (Exception e2) {
+                    System.out.println(e);
+                }
+
+            }
+
+        });
 
         pnlFoodCategory.add(jPanel11);
 
@@ -589,9 +653,9 @@ public class EditOrderPopupView extends javax.swing.JFrame implements PopupView 
         return btnCancelOrder;
     }
 
-    public JButton getBtnPrintOrder() {
-        return btnPrintOrder;
-    }
+//    public JButton getBtnPrintOrder() {
+//        return btnPrintOrder;
+//    }
 
     public JButton getBtnOK() {
         return btnOK;

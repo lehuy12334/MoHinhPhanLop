@@ -11,7 +11,7 @@ public class Database {
     private static final LoadConfig cfg = LoadConfig.getIntanse();
     private static Database instance = null;
     private Connection conn = null;
-    private static String DB_URL = "jdbc:mysql://localhost:3306/restaurant?serverTimezone=UTC";
+    private static String DB_URL = "jdbc:mysql://localhost:3306/restaurant";
     private static String USER_NAME = "root";
     private static String PASSWORD = "";
 

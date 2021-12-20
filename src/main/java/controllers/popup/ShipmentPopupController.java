@@ -10,11 +10,7 @@ import utils.ShipmentStatus;
 import views.popup.SelectCustomerPopupView;
 import views.popup.ShipmentPopupView;
 
-/**
- * createAt Dec 31, 2020
- *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
- */
+
 public class ShipmentPopupController {
 
     ShipmentDao shipmentDao = new ShipmentDao();

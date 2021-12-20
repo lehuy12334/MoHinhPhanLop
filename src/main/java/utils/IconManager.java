@@ -3,6 +3,7 @@ package utils;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
+
 public class IconManager {
 
     public static String resourcesPath = "/";
